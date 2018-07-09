@@ -18,6 +18,7 @@ namespace Ch04_RegularExpressions
             else
             {
                 WriteLine($"아냐,아냐 {input} 이건 입력방식이 아니야");
+                WriteLine($"아냐,아냐 {input} 이건 입력방식이 아니야")
             }
         }
     }

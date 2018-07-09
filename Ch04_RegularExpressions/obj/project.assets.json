@@ -670,17 +670,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leeheewoong/Woong/03.Woong_study/Chapter04/Ch04_RegularExpressions/Ch04_RegularExpressions.csproj",
+      "projectUniqueName": "/Users/leeheewoong/Documents/GitHub/CScore/Ch04_RegularExpressions/Ch04_RegularExpressions.csproj",
       "projectName": "Ch04_RegularExpressions",
-      "projectPath": "/Users/leeheewoong/Woong/03.Woong_study/Chapter04/Ch04_RegularExpressions/Ch04_RegularExpressions.csproj",
+      "projectPath": "/Users/leeheewoong/Documents/GitHub/CScore/Ch04_RegularExpressions/Ch04_RegularExpressions.csproj",
       "packagesPath": "/Users/leeheewoong/.nuget/packages/",
-      "outputPath": "/Users/leeheewoong/Woong/03.Woong_study/Chapter04/Ch04_RegularExpressions/obj/",
+      "outputPath": "/Users/leeheewoong/Documents/GitHub/CScore/Ch04_RegularExpressions/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/leeheewoong/.nuget/NuGet/NuGet.Config"
+        "/Users/leeheewoong/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -703,8 +703,9 @@
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           }
         },
